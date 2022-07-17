@@ -5,10 +5,15 @@ function CustomNavbar() {
     let tab = firstName.split(' ')
     const firstCh = tab[0][0];
     const secCh = tab[1][0];
+
+    function alertHandler() {
+        alert('this is me ')
+    }
+
     return (
         <div className="nav">
             <button className='btn acc'>Acceuil</button>
-            <button className='btn name'>{`${firstCh}.${secCh}`}</button>
+            <button onClick={alertHandler} className='btn name'>{`${firstCh}.${secCh}`}</button>
         </div>
     )
 }
