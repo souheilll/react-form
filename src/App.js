@@ -5,7 +5,7 @@ import SignIn from "./components/Formulaire";
 
 function App() {
   return (
-    <div lassName="App">
+    <div className="App">
       <CustomNavbar />
       <Sidebar />
       <SignIn />

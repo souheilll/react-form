@@ -12,8 +12,8 @@ function CustomNavbar() {
 
     return (
         <div className="nav">
-            <button className='btn acc'>Acceuil</button>
-            <button onClick={alertHandler} className='btn name'>{`${firstCh}.${secCh}`}</button>
+            <button className='bn acc'>Acceuil</button>
+            <button onClick={alertHandler} className='bn name'>{`${firstCh}.${secCh}`}</button>
         </div>
     )
 }

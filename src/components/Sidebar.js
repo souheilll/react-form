@@ -19,6 +19,7 @@ const blc = {
     display: 'flex',
     justtifyContent: 'spaceAround',
     alignItems: 'center',
+    flexDirection: 'row-reverse',
 }
 
 
