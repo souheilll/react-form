@@ -17,7 +17,7 @@ const sideContainer = {
 }
 const blc = {
     display: 'flex',
-    justtifyContent: 'spaceAround',
+    justifyContent: 'spaceAround',
     alignItems: 'center',
     flexDirection: 'row-reverse',
 }
